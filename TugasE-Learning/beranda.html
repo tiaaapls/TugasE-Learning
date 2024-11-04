@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beranda - Resep Kita</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/icon.png" alt="Logo" width="110">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="kategoriDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
+              <ul class="dropdown-menu" aria-labelledby="kategoriDropdown">
+                <li><a class="dropdown-item" href="#masakan">Masakan</a></li>
+                <li><a class="dropdown-item" href="#camilan">Camilan</a></li>
+                <li><a class="dropdown-item" href="#dessert">Dessert</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a href="index.html" class="btn btn-brand ms-lg-3">LOGOUT</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="min-vh-100 d-flex align-items-center text-center bg-primary text-white">
+      <div class="container">
+        <h1 class="text-uppercase fw-semibold display-1">Welcome to Resep Kita</h1>
+        <h4 class="mt-3 mb-4">Temukan Resep Masakan Lezat untuk Setiap Kesempatan!</h4>
+      </div>
+    </section>
+  
+    <section id="masakan" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">MASAKAN</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/ayam geprek.jpg" class="card-img-top" alt="Resep 1">
+              <div class="card-body">
+                <h5 class="card-title">Ayam Geprek</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 1.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/pepes ikan.jpe" class="card-img-top" alt="Resep 2">
+              <div class="card-body">
+                <h5 class="card-title">Pepes Ikan</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 2.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/soto ayam.jpg" class="card-img-top" alt="Resep 3">
+              <div class="card-body">
+                <h5 class="card-title">Soto Ayam</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 3.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="camilan" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">CAMILAN</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/cilok.webp" class="card-img-top" alt="Resep 1">
+              <div class="card-body">
+                <h5 class="card-title">Cilok</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 1.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/cireng.jpeg" class="card-img-top" alt="Resep 2">
+              <div class="card-body">
+                <h5 class="card-title">Cireng</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 2.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/dimsum.jpeg" class="card-img-top" alt="Resep 3">
+              <div class="card-body">
+                <h5 class="card-title">Dimsum</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 3.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="dessert" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">DESSERT</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/es kul kul.png" class="card-img-top" alt="Resep 1">
+              <div class="card-body">
+                <h5 class="card-title">Es Kul-kul</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 1.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/martabak.webp" class="card-img-top" alt="Resep 2">
+              <div class="card-body">
+                <h5 class="card-title">Martabak</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 2.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="assets/images/salad buah.jpg" class="card-img-top" alt="Resep 3">
+              <div class="card-body">
+                <h5 class="card-title">Salad Buah</h5>
+                <p class="card-text">Deskripsi singkat tentang resep 3.</p>
+                <a href="#" class="btn btn-brand">Lihat Resep</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer py-4 bg-light text-center">
+    <div class="container">
+      <div class="sosialMedia mb-2">
+        <a href="https://www.instagram.com/tiaaapls" target="_blank" class="me-3"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/tia-pelisa-85b94b2ba" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>Pemrograman Web 1 &copy; 2024, Designed by Tia Pelisa | 22552011055</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
